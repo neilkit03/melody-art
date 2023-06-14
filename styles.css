@@ -1,3 +1,27 @@
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(2, 80, 72);
+}
+
+li.navbar-item {
+  float: left;
+}
+
+li.navbar-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navbar-item a:hover {
+  background-color: #111;
+}
+
 body {
   background-color: teal;
 }
@@ -25,4 +49,15 @@ h1 {
 .card-text {
   font-size: 19px;
   padding-left: 30px;
+}
+
+.artist_image {
+  height: 600px;
+  width: 440px;
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
